@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(247, 247, 247, 1) 24.3%,
+        rgb(233, 198, 240) 92.7%
+        );
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: #362736;
+}
+
+.title{
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.music-container{
+    width: 90%;
+    max-width: 500px;
+    margin-top: 60px;
+}
+
+.music-group{
+    background-color: rgb(255, 247, 247);
+    border-radius: 6px;
+    box-shadow: 0 20px 20px rgba(187, 160, 160, 0.63);
+    display: flex;
+    padding: 20px 22.5px;
+    position: relative;
+    margin: 80px 0 150px 0;
+    z-index: 100;
+}
+
+.image-container{
+    position: relative;
+    width: 110px;
+}
+
+.image-container::after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    border: 4.5px solid #362736;
+    bottom: 100%;
+    left: 50%;
+    height: 25px;
+    width: 25px;
+    transform: translate(-50%, 50%);
+}
+
+.image-container img{
+    border-radius: 100%;
+    object-fit: cover;
+    height: 110px;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+    box-shadow: 0 5px 5px rgba(187, 160, 160, 0.63);
+    animation: rotate 2.7s linear infinite;
+    animation-play-state: paused;
+    padding: 15px;
+    transition: border .27s ease-in-out, padding .27s ease-in-out;
+    border: 2px solid #756c75;
+}
+
+.music-group.play .image-container img {
+    animation-play-state: running;
+    padding: 0;
+}
+
+.artist-image-con{
+   position: relative;
+   height: 200px;
+}
+
+.artist-image-con img{
+    border-radius: 100%;
+    object-fit: cover;
+    height: 200px;
+    width: inherit;
+    position: absolute;
+    top: -36%;
+    left: 27%;
+    box-shadow: 0 15px 15px rgba(187, 160, 160, 0.63);
+}
+
+.artist-info{
+    background-color: #fff;
+    padding: 0 30px 45px;
+    border-radius: 6px;
+    box-shadow: 0 20px 20px rgba(187, 160, 160, 0.63);
+    margin-bottom: 120px;
+}
+
+.artist-title{
+    font-size: 3.375rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 5px;
+    margin-top: -40px;
+}
+
+.artist-info p{
+    font-size: 1.125rem;
+    line-height: 1.65rem;
+}
+
+.naviagation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.action-btn{
+    background-color: rgb(255, 247, 247);
+    border: 0;
+    color: #cac6ca;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 6px;
+    margin: 0 6px;
+    transition: .27s;
+}
+
+.action-btn:hover{
+    color: #504550;
+    transform: scale(1.2);
+    transition: .27s ease-in-out;
+}
+
+.loop-active{
+    color: #A6477A;
+}
+
+.action-btn:focus{
+    outline: 0;
+}
+
+.btn-big{
+    font-size: 2rem;
+    margin-top: 8px;
+}
+
+.music-info{
+    background-color: rgba(255, 247, 247, .675);
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: translateY(0%);
+    opacity: 0;
+    text-align: right;
+    z-index: -1;
+    width: calc(100% - 30px);
+    padding: 10px 10px 10px 150px;
+    transition: transform .36s ease-in, opacity .36s ease-in;
+}
+
+.music-group.play .music-info{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.song-title{
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.song-info{
+    margin:0;
+    margin-top: 6px;
+}
+
+.progress-container{
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 6px;
+    width: 100%;
+}
+
+.progress{
+    background: #dba3ce;
+    border-radius: 6px;
+    height: 100%;
+    width: 0%;
+    transition: width .1s linear;
+}
+
+.time{
+    font-size: .875rem;
+    margin-bottom: 0;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        border: 2.5px solid #e472de;
+    }
+
+    50%{
+        border: 12px solid #4d234a;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        border: 2.5px solid #ad57a9;
+    }
+}

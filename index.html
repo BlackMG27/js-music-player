@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c43bf8fddd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <h1 class="title">Music Player</h1>
+
+    <section class="music-container">
+        
+        <div class="music-group" role="group" id="music-group">
+            <div class="music-info" role="group">
+                <h4 id="song-title" class="song-title">Tokyo</h4>
+                <h5 id="song-info" class="song-info">Lianne La Havas - Blood</h5>
+                <p id="song-time" class="time"></p>
+                <div class="progress-container" id="progress-container" role="group">
+                    <div class="progress" id="progress" role="figure"></div>
+                </div>
+            </div>
+            <audio src="/assets/mp3/Tokyo.mp3" id="audio"></audio>
+            <div class="image-container" role="group">
+                <img src="/assets/images/lianne_la_havas_blood.jpg" alt="music cover" id="cover" class="album">
+            </div>
+            <div class="navigation" role="group">
+                <button id="prev" class="action-btn">
+                    <i class="fas fa-step-backward"></i>
+                </button>
+                <button id="rewind" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="action-btn btn-big">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="forward" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+                <button id="next" class="action-btn">
+                    <i class="fas fa-step-forward"></i>
+                </button>
+                <button id="repeat" class="action-btn repeat">
+                    <i class="fas fa-redo"></i>
+                </button>
+            </div>
+        </div>
+        <div class="artist-info" role="group">
+            <div class="artist-image-con" role="group">
+                <img src="/assets/images/lianne-la-havas.jpg" alt="Lianne La Havas" id="artist-image" class="artist-image">
+            </div>
+            <h2 id="artist" class="artist-title">Lianne La Havas</h2>
+            <p id="artist-bio">Lianne Charlotte Barnes a.k.a. Lianne La Havas (born August 23, 1989, in London, England) is an English folk, soul, singer-songwriter and multi-instrumentalist. La Havas was born in London, England to a Greek father and Jamaican mother. She was raised in Tooting and Streatham, spending the majority of her time with her grandparents, following her parents' separation as a child. La Havas' cites her parents' diverse musical tastes as having the biggest influence on her music. She began singing at seven. Her mother played Jill Scott and Mary j. Blige, while her father, an accomplished multi-instrumentalist, taught her the basics of guitar and piano. Lianne wrote her first song at the age of 11 but did not learn to play the guitar until she was 18 years old. At 18, Lianne began attending Norbury Manor Business and Enterprise College for Girls in Croydon, where she studied art and planned to take her A-Levels in art foundation. However, she left college and decided to pursue a career in music full-time.</p>
+        </div>
+        
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
