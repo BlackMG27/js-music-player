@@ -1,50 +1,50 @@
 [
     {
         "artist": "Lianne La Havas",
-        "artistImage": "/assets/images/lianne-la-havas.jpg",
+        "artistImage": "./assets/images/lianne-la-havas.jpg",
         "songTitle": "Tokyo",
         "album": "Blood",
-        "albumCover": "/assets/images/lianne_la_havas_blood.jpg",
-        "song": "/assets/mp3/Tokyo.mp3",
+        "albumCover": "./assets/images/lianne_la_havas_blood.jpg",
+        "song": "./assets/mp3/Tokyo.mp3",
         "bio": "Lianne Charlotte Barnes a.k.a. Lianne La Havas (born August 23, 1989, in London, England) is an English folk, soul, singer-songwriter and multi-instrumentalist. La Havas was born in London, England to a Greek father and Jamaican mother. She was raised in Tooting and Streatham, spending the majority of her time with her grandparents, following her parents' separation as a child. La Havas' cites her parents' diverse musical tastes as having the biggest influence on her music. She began singing at seven. Her mother played Jill Scott and Mary j. Blige, while her father, an accomplished multi-instrumentalist, taught her the basics of guitar and piano. Lianne wrote her first song at the age of 11 but did not learn to play the guitar until she was 18 years old. At 18, Lianne began attending Norbury Manor Business and Enterprise College for Girls in Croydon, where she studied art and planned to take her A-Levels in art foundation. However, she left college and decided to pursue a career in music full-time."
 
     },
     {
         "artist": "Alice Smith",
-        "artistImage": "/assets/images/alice-smith.jpg",
+        "artistImage": "./assets/images/alice-smith.jpg",
         "songTitle": "Dream",
         "album": "For Lovers, Dreamers, & Me",
-        "albumCover": "/assets/images/alice-smith_album-for-lovers-dreamers-me.jpg",
-        "song": "/assets/mp3/Dream.mp3",
+        "albumCover": "./assets/images/alice-smith_album-for-lovers-dreamers-me.jpg",
+        "song": "./assets/mp3/Dream.mp3",
         "bio": "Alice Smith is a NYC-based singer, who uses elements from a wide range of musical styles, such as pop, rock, rnb and soul. Her debut album, For Lovers, Dreamers & Me, sets Rock & Pop music along a vocal landscape that evokes influences from a broad spectrum of artists such as, Patti Labelle, Nina Simone, Fiona Apple, Tina Turner, Barbra Streisand, and Billie Holiday. It's a happy marriage of her bluesy, soulful vocals balanced by mid-tempo grooves."
 
     },
     {
         "artist": "Jazmine Sullivan",
-        "artistImage": "/assets/images/jazmine-sullivan.jpg",
+        "artistImage": "./assets/images/jazmine-sullivan.jpg",
         "songTitle": "Lions, Tigers, & Bears",
         "album": "Fearless",
-        "albumCover": "/assets/images/jazmine-sullivan_fearless.jpg",
-        "song": "/assets/mp3/lions-tigers-&-bears.mp3",
+        "albumCover": "./assets/images/jazmine-sullivan_fearless.jpg",
+        "song": "./assets/mp3/lions-tigers-&-bears.mp3",
         "bio": "Jazmine Sullivan is an American R&B/Soul singer-songwriter born April 9th, 1987 from Philadelphia, Pennsylvania, U.S. She cites Brandy, Kim Burrell, Lauryn Hill, and Mary J. Blige as influences. Her debut album, Fearless, was released on September 23, 2008. It spawned the hit singles Need U Bad, Bust Your Windows, and Lions, Tigers & Bears. Upon its release, Fearless received generally positive reviews from most music critics who complimented its production and Sullivan's vocals, comparing her to female R&B artists such as Alicia Keys and Lauryn Hill. The album earned Sullivan seven Grammy Award nominations and has sold 517,000 copies in the United States and since been certified Gold by the RIAA for exceeded sales of 500,000."
     },
     {
         "artist": "Esperanza Spalding",
-        "artistImage": "/assets/images/esperanza-spaulding.jpg",
+        "artistImage": "./assets/images/esperanza-spaulding.jpg",
         "songTitle": "Winter Sun",
         "album": "Chamber Music Society",
-        "albumCover": "/assets/images/esperanza_spalding_chamber_music_society.jpg",
-        "song": "/assets/mp3/Winter-Sun.mp3",
+        "albumCover": "./assets/images/esperanza_spalding_chamber_music_society.jpg",
+        "song": "./assets/mp3/Winter-Sun.mp3",
         "bio": "Born in 1984, bassist, singer and composer Esperanza Spalding began playing in small jazz and blues venues around her hometown of Portland, Oregon. Soon after picking up the acoustic bass at the late age of 14, she helped form Noise For Pretend, an eclectic band fusing jazz and pop for which she sang and played bass (often simultaneously). The group signed with indie rock imprint Hush Records, which released two albums of their original compositions."
         
     },
     {
         "artist": "Noisettes",
-        "artistImage": "/assets/images/noisettes-2.jpg",
+        "artistImage": "./assets/images/noisettes-2.jpg",
         "songTitle":"Cheap Kicks",
         "album":"Wild Young Hearts",
-        "albumCover": "/assets/images/noisettes_wild-young-hearts.jpg",
-        "song": "/assets/mp3/Cheap-Kicks.mp3",
+        "albumCover": "./assets/images/noisettes_wild-young-hearts.jpg",
+        "song": "./assets/mp3/Cheap-Kicks.mp3",
         "bio": "Noisettes are a rock trio from London, England, formed in 2003 when Shingai Shoniwa and Dan Smith (formerly of the band Sonarfly) began writing and playing more intensely than before. They met drummer Jamie Morrison in December 2003, and went straight into the studio to record their noisy and abrasive four-track debut, Three Moods of the Noisettes, which was released on Side Salad Records."
     }
 ]
