@@ -23,7 +23,7 @@ let songData;
 
 
 //get song data
-fetch(`artists.json`)
+fetch(`./artists.json`)
     .then(res => res.json())
     .then(data => {
         //load the song into the DOM
@@ -79,7 +79,7 @@ const forwardBy15 = () => {
 //gets the previous song in the queue
 const playPrevSong = () => {
     songIndex--;
-    fetch(`artists.json`)
+    fetch(`./artists.json`)
         .then(res => res.json())
         .then( data => {
             if(songIndex < 0){
@@ -93,7 +93,7 @@ const playPrevSong = () => {
 //plays the next song
 const playNextSong = () => {
     songIndex++;
-    fetch(`artists.json`)
+    fetch(`./artists.json`)
         .then(res => res.json())
         .then( data => {
             if(songIndex > data.length - 1){
